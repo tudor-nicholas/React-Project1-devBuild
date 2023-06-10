@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(Cors());
-const stripeSecretKey = 'sk_test_51NG3qBJidReebcdVc3t8MUMdtDSmpWAEK5pkkqEw0utpDgwi2zsUIQYNZVhgAzRKsF7fw8zJ4AmUFaF76JVizpEQ00IdGvCfLd';
+const stripeSecretKey = 'SECRET CODE';
 const stripeInstance = stripe(stripeSecretKey);
 
 const db = mysql.createConnection({
