@@ -2,7 +2,7 @@
 
 ## Site idea "A shop site for expensive suits"
 
-## This version is the dev code without the node modules but the extra packets are:
+## Extra node modules used:
 
 ### Client-side:
 * React
