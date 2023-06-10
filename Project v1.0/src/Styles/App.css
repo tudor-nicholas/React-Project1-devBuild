@@ -1,0 +1,100 @@
+
+:root {
+    --base-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --color-white: #FFFBF5;
+    --color-dark: #20262E;
+    --color-black: #000000;
+    --shadow-color: rgba(0, 0, 0, 0.6);
+    --color-gray: #808080;
+    --light-bej: #f7e4ce;
+    --dark-bej: #786d63;
+    --signin-bej: #d0bda6;
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: var(--color-black);
+    border: solid 3px #F1DEC9;
+    overflow: auto;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: var(--color-gray);
+    min-height: 40px;
+    overflow: auto;
+    border: 0.5rem solid transparent;
+    background-clip: padding-box;
+    transition: height 0.2s ease-in-out;
+    padding: 5px;
+  }
+
+#root {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-black);
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-black);
+}
+
+.top-background {
+    position: relative;
+    width: 100%;
+    height: 72rem;
+}
+
+.top-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-title {
+    margin-top: 16.5rem;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: var(--base-font);
+    color: var(--color-white);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    text-shadow: 4px 4px 6px var(--shadow-color);
+}
+
+.custom-explore-btn {
+    margin-top: 21rem;
+    margin-left: 57.5rem;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--base-font);
+    text-decoration: none;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    border-radius: 25em;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 8px 8px 12px var(--shadow-color);
+    z-index: 1;
+}
+
+@media screen and (min-width: 1921px) {
+    .top-background a {
+        margin-left: 78rem;
+    }
+}
