@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
 
-const stripePromise = loadStripe('pk_test_51NG3qBJidReebcdVufMkeXtX0tFbu9JifBlI0nKTeQv43FLXjZXyWzyB1mv9DtJmB8D5qDIxQjkLtZJ7Wmb8VBYQ00JDSJoyoX');
+const stripePromise = loadStripe('STRIPE TOKEN');
 
 const CheckoutPage = () => {
   const [price, setPrice] = useState([]);
