@@ -16,3 +16,4 @@
 * Body-parser
 * Cors
 * Stripe
+* Nodemon
